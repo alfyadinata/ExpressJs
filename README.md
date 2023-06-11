@@ -42,7 +42,7 @@
   <h2>Usage</h2>
   <p>Once the server is running, you can access the application by opening your web browser and visiting <a href="http://localhost:3000">http://localhost:3000</a>. You should see the application running and can interact with it as needed.</p>
 
-  <h2>API Docs</h2>
+  <h2>API Docs (don't forget to create env file based on .env.example)</h2>
   <h4> Sign Up </h4>
 <img width="1349" alt="image" src="https://github.com/alfyadinata/ExpressJs/assets/42163566/714b7f3c-20d0-4ac9-977f-17fe413c5069">
   <h4> Sign In (past crud and import api with <i> Authorization myToken </i>) </h4>
