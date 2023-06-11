@@ -25,18 +25,15 @@
     <pre><code>npm install</code></pre>
   </ol>
 
-  <h2>Configuration</h2>
-  <p>The application may require configuration based on your environment. You can find the configuration file in <code>config.js</code> or <code>config.json</code>. Modify the necessary values such as database connection details, API keys, or any other environment-specific settings.</p>
-
   <h2>Starting the Application</h2>
   <p>To start the Express.js server, use the following command:</p>
-  <pre><code>npm start</code></pre>
+  <pre><code>nodemon start</code></pre>
   <p>This will launch the server, and you should see the following message in the console:</p>
   <pre><code>Server listening on port 3000</code></pre>
 
   <h2>Testing</h2>
   <p>To run the tests for the application, use the following command:</p>
-  <pre><code>npm test</code></pre>
+  <pre><code>npx jest</code></pre>
   <p>This will execute the test cases defined in the <code>test/</code> directory.</p>
 
   <h2>Usage</h2>
