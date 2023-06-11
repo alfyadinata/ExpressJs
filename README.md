@@ -20,7 +20,7 @@
     <li>Clone the repository:</li>
     <pre><code>git clone https://github.com/alfyadinata/ExpressJs</code></pre>
     <li>Navigate to the project directory:</li>
-    <pre><code>cd express-app</code></pre>
+    <pre><code>cd ExpressJs</code></pre>
     <li>Install the dependencies:</li>
     <pre><code>npm install</code></pre>
   </ol>
