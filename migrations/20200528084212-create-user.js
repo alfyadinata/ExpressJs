@@ -19,6 +19,14 @@ module.exports = {
       password: {
         type: Sequelize.STRING
       },
+      datePurchase: {
+        allowNull: true,
+        type: Sequelize.STRING
+      },
+      customerId: {
+        allowNull: true,
+        type: Sequelize.BIGINT
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

@@ -11,9 +11,9 @@ module.exports = {
             message,
         })
     },
-    notFound: function(res, message, code) {
+    notFound: function(res, error, code) {
         return res.status(code ? code : 404).json({
-            message,
+            message: error.message || error,
         })
     },
     validationError: function(res, message, code) {
