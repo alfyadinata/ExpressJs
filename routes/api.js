@@ -17,8 +17,9 @@ app.get('/users', AuthMiddleware, UserController.getAllUsers)
 app.post('/users', AuthMiddleware, UserController.store)
 app.get('/users/:id', AuthMiddleware, UserController.show)
 app.patch('/users/:id', AuthMiddleware, UserController.update)
+app.delete('/users/:id', AuthMiddleware, UserController.destroy)
 
-app.post('/import/users', upload.single('file'), ImportController.importData);
+app.post('/import/users', AuthMiddleware, upload.single('file'), ImportController.importData);
 
 
 module.exports = app

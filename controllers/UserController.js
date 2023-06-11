@@ -73,7 +73,7 @@ module.exports = {
       const data = await user.findByPk(id);
 
       if (!data) {
-        return resp.error(res, 'User not found');
+        return resp.notFound(res, 'User not found');
       }
 
       return resp.success(res, data);
@@ -92,7 +92,7 @@ module.exports = {
       let data = await user.findByPk(id);
 
       if (!data) {
-        return resp.error(res, 'User not found');
+        return resp.notFound(res, 'User not found');
       }
 
       const hashedPassword = password ? await bcrypt.hash(password, 10) : data.password;
@@ -110,4 +110,24 @@ module.exports = {
       return resp.error(res, error);
     }
   },
+
+  async destroy(req, res) {
+    try {
+      const { id } = req.params
+
+      const data = await user.findByPk(id);
+
+      if (!data) {
+        return resp.notFound(res, 'User not found');
+      }
+
+      await user.destroy({
+        where: {
+          id: id
+        }
+      });
+    } catch (error) {
+      return resp.error(res, error);
+    }
+  }
 };
