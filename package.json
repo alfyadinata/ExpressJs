@@ -20,7 +20,8 @@
     "pg": "^8.11.0",
     "pg-hstore": "^2.3.4",
     "redis": "^3.0.2",
-    "sequelize": "^5.22.5"
+    "sequelize": "^5.22.5",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
