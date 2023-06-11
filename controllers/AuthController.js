@@ -1,8 +1,7 @@
-const { check, validationResult } = require('express-validator')
 const jwt = require('jsonwebtoken')
 const model = require('../models/index')
 const user = model.User
-const resp = require('../config/httpResponse')
+const resp = require('../utils/httpResponse')
 const bcrypt = require('bcryptjs')
 
 module.exports = {
