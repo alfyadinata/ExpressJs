@@ -25,7 +25,7 @@ module.exports = {
       },
       customerId: {
         allowNull: true,
-        type: Sequelize.BIGINT
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
