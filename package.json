@@ -1,5 +1,5 @@
 {
-  "name": "test-node-version",
+  "name": "ExpressJs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +17,12 @@
     "express-validator": "^6.5.0",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.1.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
     "redis": "^3.0.2",
-    "sequelize": "^5.21.10"
+    "sequelize": "^5.22.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
