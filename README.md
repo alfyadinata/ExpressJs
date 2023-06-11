@@ -42,18 +42,17 @@
   <h2>Usage</h2>
   <p>Once the server is running, you can access the application by opening your web browser and visiting <a href="http://localhost:3000">http://localhost:3000</a>. You should see the application running and can interact with it as needed.</p>
 
-  <h2>Project Structure</h2>
-  <p>The project structure is organized as follows:</p>
-  <ul>
-    <li><code>app.js</code>: The main entry point of the application where the Express.js server is initialized.</li>
-    <li><code>routes/</code>: Contains the route definitions for different endpoints.</li>
-    <li><code>controllers/</code>: Contains the controller logic for handling requests and generating responses.</li>
-    <li><code>middlewares/</code>: Contains custom middleware functions for processing requests.</li>
-    <li><code>models/</code>: Contains the database models and schema definitions.</li>
-    <li><code>utils/</code>: Contains utility functions or helper modules used in the application.</li>
-    <li><code>public/</code>: Contains static assets such as CSS, images, or client-side JavaScript files.</li>
-    <li><code>views/</code>: Contains the server-side view templates (if using a templating engine).</li>
-  </ul>
+  <h2>API Docs</h2>
+  <h4> Sign Up </h4>
+<img width="1349" alt="image" src="https://github.com/alfyadinata/ExpressJs/assets/42163566/714b7f3c-20d0-4ac9-977f-17fe413c5069">
+  <h4> Sign In (past crud and import api with <i> Authorization myToken </i>) </h4>
+  <img width="1356" alt="image" src="https://github.com/alfyadinata/ExpressJs/assets/42163566/06cbee6e-e049-4c78-b44b-62599ae19c84">
+  <h4>Create User</h4>
+  <img width="1347" alt="image" src="https://github.com/alfyadinata/ExpressJs/assets/42163566/55822ee3-1c7d-4d00-b746-67083d00bff1">
+  <h4>Update User</h4>
+  <img width="1361" alt="image" src="https://github.com/alfyadinata/ExpressJs/assets/42163566/d3bdc5d0-712f-47f1-9be4-470f5d1004e0">
+  <h4>Import Csv User</h4>
+  <img width="1440" alt="image" src="https://github.com/alfyadinata/ExpressJs/assets/42163566/57958376-45b6-40d0-b73d-5b01148f68d1">
 
   <h2>Contributing</h2>
   <p>Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.</p>
